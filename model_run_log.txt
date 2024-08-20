@@ -1,0 +1,33 @@
+2024-05-15 10:34:29: AdaBoost Model Classification Report:
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00     37833
+         Bot       0.99      0.98      0.99       374
+
+    accuracy                           1.00     38207
+   macro avg       0.99      0.99      0.99     38207
+weighted avg       1.00      1.00      1.00     38207
+
+2024-05-15 10:34:49: DecisionTree Model Classification Report:
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00     37833
+         Bot       0.99      0.99      0.99       374
+
+    accuracy                           1.00     38207
+   macro avg       1.00      0.99      1.00     38207
+weighted avg       1.00      1.00      1.00     38207
+
+2024-05-15 10:38:10: Data loading canceled by the user.
+2024-05-15 11:13:51: Data loaded successfully.
+2024-05-15 11:15:21: Data preprocessed successfully.
+2024-05-15 11:15:43: KNN Model Classification Report:
+              precision    recall  f1-score   support
+
+      BENIGN       1.00      1.00      1.00     37833
+         Bot       0.82      0.86      0.84       374
+
+    accuracy                           1.00     38207
+   macro avg       0.91      0.93      0.92     38207
+weighted avg       1.00      1.00      1.00     38207
+
